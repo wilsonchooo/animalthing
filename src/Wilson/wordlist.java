@@ -12,9 +12,7 @@ public class wordlist {
     }
 
 
-    public void addWords(String word){
-        myList.add(word);
-    }
+
 
 
     public int numWordsOfLength(int len){
@@ -37,11 +35,13 @@ public class wordlist {
     }
 
 
-    public String toString(){
-        String result = "";
-        for(String words : myList){
-            result+= words + " ";
+
+    public String printthing()
+    {
+        String stringer = "";
+        for(String animals : myList){
+            stringer= stringer + animals + " ";
         }
-        return result;
+        return stringer;
     }
 }

@@ -21,16 +21,18 @@ public class Main {
         System.out.println(animals.numWordsOfLength(2));
 
 
-        System.out.println(animals.toString());
+        System.out.println(animals.printthing());
 
 
         animals.removeWordsOfLength(4);
-        System.out.println(animals);
+        System.out.println(animals.printthing());
+
+
 
         animals.removeWordsOfLength(3);
-        System.out.println(animals);
+        System.out.println(animals.printthing());
 
         animals.removeWordsOfLength(2);
-        System.out.println(animals);
+        System.out.println(animals.printthing());
     }
 }
